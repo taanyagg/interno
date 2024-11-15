@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="images/icons/favicon.svg">
+    <link rel="stylesheet" href="media/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid my-2 mx-5">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/icons/logo.svg" alt="Logo" class="d-inline-block align-text-top logotip">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse ml-auto justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 gap-3">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="serv.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pro.html">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link sign_in" href="in.html">Sign in</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn sign_up btn-sm nav-link px-3" role="button" href="up.html">Sign up</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="inup_banner">
+            <div class="banner_rect">
+                <h1 class="mt-4">Sign In</h1>
+                <p class="r_18 mb-4">New User? <a href="up.html" class="inup_link">Sign Up</a></p>
+            </div>
+        </div>
+        <form id="loginForm" novalidate>
+            <div class="form-floating mt-5">
+                <input type="email" class="form-control" id="floatingEmail" placeholder="name@example.com" required>
+                <label for="floatingEmail" class="r_18">Email</label>
+                <div class="invalid-feedback">Please enter a valid email.</div>
+            </div>
+            <div class="form-floating mt-3">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required minlength="8" maxlength="20">
+                <label for="floatingPassword" class="r_18">Password</label>
+                <div class="invalid-feedback">Password must be between 8 and 20 characters.</div>
+            </div>
+            <button type="submit" class="btn btn_arrow m-auto mt-5" >
+                <p class="b_18 me-2 mb-0">Continue</p>
+                <img src="images/icons/arrow1.svg">
+            </button>
+        </form>
+        
+        <p class="r_22 mt-5 text-center">or</p>
+        <div class="col pb-5 mt-5">
+            <div class="but p-3 mb-3 w-25">
+                <img src="images/icons/google.svg" width="27px">
+                <a href="" class="r_22 ps-3" style="text-decoration: none;">Continue with Google</a>
+            </div>
+            <div class="but p-3 mb-3 w-25">
+                <img src="images/icons/facebook1.svg" width="27px">
+                <a href="" class="r_22 ps-3" style="text-decoration: none;">Continue with Facebook</a>
+            </div>
+            <div class="but p-3 w-25">
+                <img src="images/icons/apple.svg" width="27px">
+                <a href="" class="r_22 ps-3" style="text-decoration: none;">Continue with Apple</a>
+            </div>
+        </div>
+        <footer class="mx-5 pt-5 mt-5">
+            <div class="row">
+                <div class="col">
+                    <img src="images/icons/logo.svg" class="logotip">
+                    <p class="r_18 mt-3">It is a long established fact that a reader will be distracted lookings.</p>
+                    <div class="soc">
+                        <img src="images/icons/facebook2.svg" class="me-5" style="height: 15px;">
+                        <img src="images/icons/twitter.svg" class="me-5" style="height: 15px;">
+                        <img src="images/icons/in.svg" class="me-5" style="height: 15px;">
+                        <img src="images/icons/inst.svg" class="me-5" style="height: 15px;">
+                    </div>
+                </div>
+                <div class="col">
+                    <h3 class="mb-4">Pages</h3>
+                    <p><a href="index.html" class="r_18 foot_link">Home</a></p>
+                    <p><a href="about.html" class="r_18 foot_link">About Us</a></p>
+                    <p><a href="serv.html" class="r_18 foot_link">Services</a></p>
+                    <p><a href="pro.html" class="r_18 foot_link">Projects</a></p>
+                    
+                </div>
+                <div class="col">
+                    <h3 class="mb-4">Projects</h3>
+                    <p><a href="pro.html" class="r_18 foot_link">Bathroom</a></p>
+                    <p><a href="pro.html" class="r_18 foot_link">Bedroom</a></p>
+                    <p><a href="pro.html" class="r_18 foot_link">Kitchen</a></p>
+                    <p><a href="pro.html" class="r_18 foot_link">Living Area</a></p>
+                </div>
+                <div class="col">
+                    <h3 class="mb-4">Contacts</h3>
+                    <p class="r_18">55 East Birchwood Ave. Brooklyn, New York 11201</p>
+                    <p class="r_18">contact@interno.com</p>
+                    <p class="r_18">(123) 456 - 7890</p>
+                </div>
+                <p class="r_18 mt-5 pt-5" style="color: #4D5053; text-align: center;">Copyright © Interno | Designed by Victorflow Templates - Powered by Webflow</p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        function showCustomAlert(message) {
+            const alertDiv = document.createElement('div');
+            alertDiv.className = 'custom-alert';
+            alertDiv.innerHTML = `
+                <p>${message}</p>
+                <button
+        onclick="this.parentElement.remove()">Ok</button>
+            `;
+            document.body.appendChild(alertDiv);
+            alertDiv.style.display = 'block';
+            setTimeout(() => {
+                alertDiv.remove();
+            }, 1500); // Удаляем alert через 3 секунды
+        }
+        
+        function handleFormSubmit(event, form, redirectUrl, successMessage) {
+            event.preventDefault(); // Предотвращаем перезагрузку страницы
+            if (!form.checkValidity()) {
+                form.classList.add('was-validated');
+            } else {
+                showCustomAlert(successMessage);
+                setTimeout(() => {
+                    window.location.href = redirectUrl;
+                }, 1500); // Перенаправляем на главную страницу через 2 секунды
+            }
+        }
+        
+        const signupForm = document.getElementById('signupForm');
+        const loginForm = document.getElementById('loginForm');
+        
+        loginForm.addEventListener('submit', function (event) {
+            handleFormSubmit(event, loginForm, 'index.html', 'You have successfully signed in!');
+        });
+    </script>
+    <script src="media/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
